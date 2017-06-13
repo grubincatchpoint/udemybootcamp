@@ -1,8 +1,6 @@
 h1 {
   color: #ff8000;
-  border-color: purple;
-  border-width: 5px;
-  border-style: solid;
+  border: 5px solid purple;
 }
 
 li {
@@ -18,3 +16,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;*/
 }
+/*Star *
+Descendent li a
+Adjancent (use +) li + a
+Attribute input[type=text]
+nth of type ul: li:nth-of-type(1)
+*/
