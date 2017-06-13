@@ -1,11 +1,20 @@
 h1 {
-  color: red;
+  color: #ff8000;
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
 }
 
 li {
-  color: green;
+  color: #44bcdf;
 }
 
 h4 {
-  color: purple;
+  background: rgb(255, 100, 80);
+}
+body {
+  background: pink;
+  /*background: url(https://filtergrade.com/wp-content/uploads/2015/10/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
