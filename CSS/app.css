@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   color: #ff8000;
   border: 5px solid purple;
 }
@@ -11,14 +11,50 @@ h4 {
   background: rgb(255, 100, 80);
 }
 body {
-  background: pink;
+  background: pink;*/
   /*background: url(https://filtergrade.com/wp-content/uploads/2015/10/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;*/
-}
+/*}*/
 /*Star *
 Descendent li a
 Adjancent (use +) li + a
 Attribute input[type=text]
 nth of type ul: li:nth-of-type(1)
 */
+
+/*Font-family and font-size*/
+body {
+  font-size: 10px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.0em;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+span {
+  font-size: 2.0em;
+}
+
+/*Weights*/
+p {
+  font-weight: bold;
+  /*Line height*/
+  line-height: 1.5;
+  /*text align*/
+  text-align: center;
+  /*text decoration*/
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: line-through;
+}
