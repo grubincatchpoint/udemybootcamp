@@ -18,3 +18,13 @@ body {
 .navbar-inverse .navbar-brand {
     color: #fff;
 }
+
+.row.flex {
+    display: inline-flex;
+    width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
