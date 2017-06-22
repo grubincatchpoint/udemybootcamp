@@ -12,3 +12,8 @@ var bolded = document.getElementsByClassName("bolded");
 var tags = document.getElementsByTagName("li");
 var highlightSelector = document.querySelector("#highlight");
 var allLi = document.querySelectorAll("li");
+
+//.textContent to change text
+//.innerHTML to change HTML
+//.getAttribute to get attributes
+//.setAttribute to modify attributes of an element
