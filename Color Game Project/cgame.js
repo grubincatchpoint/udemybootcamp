@@ -71,10 +71,6 @@ resetButton.addEventListener("click", function() {
   reset();
 })
 
-colorDisplay.textContent = pickedColor;
-
-
-
 function changeColors(color) {
   //loop through all squares
   for(var i = 0; i < squares.length; i++) {
