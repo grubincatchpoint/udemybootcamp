@@ -15,5 +15,7 @@
   if keypressVal.which === 13
   on jQ gives you an event listener with a function
 */
-var textCommand = $("h1").text();
-$("img").attr("src", "https://i.ytimg.com/vi/zx0gXM_FkgE/maxresdefault.jpg");
+
+$("button").on("click", function() {
+  $('div').fadeToggle(1000);
+});
