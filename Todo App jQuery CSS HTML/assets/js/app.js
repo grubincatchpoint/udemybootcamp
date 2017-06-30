@@ -16,7 +16,7 @@ $("input[type='text']").keypress(function(event) {
     //extract value
     var item = $(this).val();
     //create new li and add to ul
-    $('ul').append("<li><span>X</span> " + item + "</li>");
+    $('ul').append("<li><span><i class='fa fa-trash'></i></span> " + item + "</li>");
     //Clear text
     $(this).val("");
   }
